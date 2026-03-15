@@ -7,7 +7,7 @@ name = "leetcode-python"
 version = "0.1.0"
 description = "LeetCode solutions in Python"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = []
 
 [project.optional-dependencies]
@@ -21,8 +21,8 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-python_files = ["test_*.py"]
+python_files = ["*_test.py"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py312"
+target-version = "py314"
