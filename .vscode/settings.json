@@ -1,0 +1,11 @@
+{
+    "workbench.editor.restoreEditors": false,
+    "workbench.editor.restoreViewState": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
